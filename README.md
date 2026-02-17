@@ -1,12 +1,34 @@
-# React + Vite
+# Mini React Playground
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A collection of small React projects and UI experiments to practice component design, state management, and user interaction. Projects include a counter, color changer, and money converter.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Projects
 
-## Expanding the ESLint configuration
+### 1. Counter
+A simple interactive counter built with React and `useState`.  
+**Features:**
+- Increment and decrement buttons
+- Displays current count
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Change Color
+An interactive color changer that updates the background color dynamically.  
+**Features:**
+- Change color on button click
+- Demonstrates React state and style updates
+
+### 3. Money Converter
+A currency converter that converts amounts based on a given rate.  
+**Features:**
+- Input amount to convert
+- Displays converted value
+- Demonstrates controlled inputs and calculations in React
+
+---
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ashevkar/frontend-playground.git
